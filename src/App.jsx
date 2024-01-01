@@ -22,7 +22,8 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem('theme', theme);
     document.body.className = theme;
-  })
+  });
+
   return (
     <div className="">
       <nav
